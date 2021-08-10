@@ -15,5 +15,5 @@ func main() {
 	}
 
 	fmt.Println(protojsonissue.ExampleMessageToJSON(msg))
-	//	fmt.Println(protojsonissue.ExampleMessageToJSON(msg))
+	fmt.Println(protojsonissue.ExampleMessageToJSON(msg))
 }
