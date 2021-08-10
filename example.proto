@@ -1,0 +1,10 @@
+syntax = "proto3";
+package protojsonissue;
+option go_package = "protojsonissue";
+
+message ExampleMessage {
+  string a_string = 1;
+  bytes some_bytes = 2;
+  int64 a_number = 3;
+}
+
